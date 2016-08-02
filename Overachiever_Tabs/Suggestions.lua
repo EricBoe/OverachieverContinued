@@ -990,7 +990,7 @@ local function Refresh(self)
   end
 
   -- Suggestions based on an open tradeskill window or whether a fishing pole is equipped:
-  TradeskillSuggestions = GetTradeSkillLine()
+  TradeskillSuggestions = C_TradeSkillUI.GetTradeSkillLine()
   local tradeskill = LBIR[TradeskillSuggestions]
   if (not ACHID_TRADESKILL[tradeskill] and IsEquippedItemType("Fishing Poles")) then
     TradeskillSuggestions, tradeskill = LBI["Fishing"], "Fishing"
