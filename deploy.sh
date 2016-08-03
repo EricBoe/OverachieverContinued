@@ -16,5 +16,6 @@ do
 	cp -R "src/$addon" "."
 	#replace %%%INTERFACEID%%% with the InterfaceId
 	sed -i -e "s/%%%INTERFACEID%%%/$InterfaceId/g" "$addon/$addon.toc"
+	#move everything to addon folder
 	cp -R "$addon" "$WoWAddonPath/"
 done
