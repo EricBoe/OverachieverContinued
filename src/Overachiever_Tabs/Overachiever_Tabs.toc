@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: %%%INTERFACEID%%%
 ## Title: Overachiever - Tabs
 ## Version: 0.84
 ## Author: Tuhljin
